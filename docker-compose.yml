@@ -1,0 +1,33 @@
+version: '3.3'
+services:
+  web:
+    image: nginx
+    volumes:
+      - ${NGINX_DIR}/nginx.conf:${CONTAINER_NGINX_DIR}/nginx.conf
+      - ${NGINX_DIR}/vhosts:${CONTAINER_NGINX_DIR}/vhosts
+      - ${NGINX_DIR}/logs:${CONTAINER_NGINX_DIR}/logs
+      - ${CODE_DIR}:/home/work
+    ports:
+      - 80:80
+      - 4586:4586
+    networks:
+      - program
+  php:
+    image: php:7.2-fpm
+    volumes:
+     - ${PHP_DIR}/php.ini:${CONTAINER_PHP_DIR}/php.ini
+     - ${PHPFPM_DIR}/php-fpm.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.conf
+     - ${PHPFPM_DIR}/www.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.d/www.conf
+     - ${CODE_DIR}:/home/work
+    ports:
+      - 9000:9000
+    restart: always
+    stdin_open: true
+    tty: true
+    networks:
+      - program
+networks:
+  program:
+    driver: bridge
+
+# docker exec -it nginx_php_new_php_1 bash
