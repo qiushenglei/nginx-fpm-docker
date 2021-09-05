@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   web:
-    image: nginx
+    image: qsldockerhub/nginx:latest
     volumes:
       - ${NGINX_DIR}/nginx.conf:${CONTAINER_NGINX_DIR}/nginx.conf
       - ${NGINX_DIR}/vhosts:${CONTAINER_NGINX_DIR}/vhosts
@@ -13,7 +13,7 @@ services:
     networks:
       - program
   php:
-    image: php:7.2-fpm
+    image: qsldockerhub/php:7.2-fpm
     volumes:
      - ${PHP_DIR}/php.ini:${CONTAINER_PHP_DIR}/php.ini
      - ${PHPFPM_DIR}/php-fpm.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.conf
