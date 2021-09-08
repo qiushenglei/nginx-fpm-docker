@@ -312,3 +312,256 @@ Stack trace:
 #2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
 #3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
 #4 [internal function]: Illuminate\Foundation\Boo
+2021/09/08 01:49:33 [error] 26#26: *104 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 01:49:35 [error] 26#26: *104 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 02:29:56 [error] 26#26: *108 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 02:29:59 [error] 26#26: *108 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 03:32:09 [error] 27#27: *112 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 03:32:11 [error] 27#27: *112 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 06:07:02 [error] 26#26: *115 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 06:07:05 [error] 26#26: *115 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 06:22:58 [error] 26#26: *120 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 06:23:00 [error] 26#26: *120 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 06:46:34 [error] 26#26: *124 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 06:46:36 [error] 26#26: *124 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 07:09:35 [error] 26#26: *128 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 07:09:37 [error] 26#26: *128 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 07:25:12 [error] 26#26: *131 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 07:25:14 [error] 26#26: *131 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 07:34:44 [error] 26#26: *135 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 07:34:46 [error] 26#26: *135 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 07:35:58 [error] 26#26: *135 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 07:35:59 [error] 26#26: *135 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 07:55:52 [error] 26#26: *142 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 07:55:55 [error] 26#26: *142 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 08:02:33 [error] 27#27: *147 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:03:33 [error] 27#27: *147 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:06:39 [error] 26#26: *152 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:08:38 [error] 26#26: *152 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:09:38 [error] 26#26: *152 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:19:40 [error] 26#26: *159 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:20:40 [error] 26#26: *159 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:25:10 [error] 26#26: *164 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:26:10 [error] 26#26: *164 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:34:26 [error] 27#27: *168 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:35:26 [error] 27#27: *168 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:56:54 [error] 26#26: *173 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 08:57:54 [error] 26#26: *173 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 09:26:47 [error] 26#26: *176 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 09:26:49 [error] 26#26: *176 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 09:34:23 [error] 27#27: *180 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 09:34:26 [error] 27#27: *180 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 09:42:06 [error] 26#26: *184 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 09:42:09 [error] 26#26: *184 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
+2021/09/08 09:43:19 [error] 26#26: *184 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: appgm74odym2071.h5.xiaoeknow.com, request: "GET /pay/pre_get_info_v3?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "appgm74odym2071.h5.xiaoeknow.com"
+2021/09/08 09:43:20 [error] 26#26: *184 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /home/work/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2021...', Array)
+#5 /home/work/ceportal/vendor/xiaoe/exception-reporter/src/Ex...
+PHP message: PHP Fatal error:  Uncaught ErrorException: Function must be enabled in php.ini by setting 'xdebug.mode' to 'develop' in /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php:35
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Function must b...', '/home/work/cepo...', 35, Array)
+#1 /home/work/ceportal/vendor/symfony/debug/Exception/FatalErrorException.php(35): xdebug_get_function_stack()
+#2 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(132): Symfony\Component\Debug\Exception\FatalErrorException->__construct('Uncaught Unexpe...', 1, 0, '/home/work/cepo...', 161, 0)
+#3 /home/work/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(118): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError(Array, 0)
+#4 [internal function]: Illuminate\Foundation\Bo
