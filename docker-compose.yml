@@ -29,6 +29,17 @@ services:
     tty: true
     networks:
       - program
+  redis:
+    image: redis:5
+    container_name: redisContainer
+    command: redis-server ${CONTAINER_REDIS_DIR}/redis.conf
+    volumes:
+      - ${REDIS_DIR}/redis.conf:${CONTAINER_REDIS_DIR}/redis.conf
+      - ${REDIS_DIR}/dump.rdb:${CONTAINER_REDIS_DIR}/dump.rdb
+    ports:
+      - 6379:6379
+    networks:
+      - program
 networks:
   program:
     driver: bridge
