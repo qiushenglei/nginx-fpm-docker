@@ -7,20 +7,20 @@ services:
       - ${NGINX_DIR}/nginx.conf:${CONTAINER_NGINX_DIR}/nginx.conf
       - ${NGINX_DIR}/vhosts:${CONTAINER_NGINX_DIR}/vhosts
       - ${NGINX_DIR}/logs:${CONTAINER_NGINX_DIR}/logs
-      - ${CODE_DIR}:/home/work
+      - ${CODE_DIR}:/var/www
     ports:
       - 80:80
-      - 4586:4586
     networks:
       - program
   php:
-    image: qsldockerhub/php:7.2-fpm
+    # image: qsldockerhub/php:7.2-fpm
+    image: qsldockerhub/php-fpm:7.1
     container_name: phpContainer
     volumes:
      - ${PHP_DIR}/php.ini:${CONTAINER_PHP_DIR}/php.ini
-     - ${PHPFPM_DIR}/php-fpm.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.conf
-     - ${PHPFPM_DIR}/www.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.d/www.conf
-     - ${CODE_DIR}:/home/work
+     # - ${PHPFPM_DIR}/php-fpm.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.conf
+     # - ${PHPFPM_DIR}/www.conf:${CONTAINER_PHPFPM_DIR}/php-fpm.d/www.conf
+     - ${CODE_DIR}:/var/www
     ports:
       - 9000:9000
       #- 20010:10010

@@ -1657,3 +1657,177 @@ PHP message: Xdebug: [Step Debug] Time-out connecting to debugging client, waite
 2021/12/13 03:17:00 [error] 27#27: *18 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "ceportal.local.xiaoe.com"
 2021/12/13 03:24:57 [error] 27#27: *21 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "ceportal.local.xiaoe.com"
 2021/12/13 03:25:57 [error] 27#27: *21 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/01/10 06:48:50 [error] 26#26: *1 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.18.0.1, server: ceportal.local.xiaoe.com, request: "POST /portal/exchange_code?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:15:55 [error] 26#26: *6 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:17:03 [error] 26#26: *11 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:35:50 [error] 26#26: *14 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:39:09 [error] 26#26: *17 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:46:25 [error] 26#26: *20 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:48:19 [error] 26#26: *20 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:49:52 [error] 26#26: *20 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 07:57:26 [error] 26#26: *30 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:03:08 [error] 26#26: *35 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:08:11 [error] 26#26: *38 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:19:59 [error] 26#26: *41 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:25:54 [error] 26#26: *44 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:30:41 [error] 26#26: *47 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:33:22 [error] 26#26: *50 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 08:36:06 [error] 26#26: *50 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /xe.pay_config.list?XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 10:38:16 [error] 26#26: *64 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?app_id=appcypqd1zf6364&XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 10:40:09 [error] 26#26: *64 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?app_id=appcypqd1zf6364&XDEBUG_SESSION_START=qqqQ HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/23 10:41:09 [error] 26#26: *64 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.22.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?app_id=appcypqd1zf6364&XDEBUG_SESSION_START=qqqQ HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "ceportal.local.xiaoe.com"
+2022/03/24 03:19:17 [error] 26#26: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/03/24 03:19:59 [error] 26#26: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/03/24 03:20:49 [error] 26#26: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/03/24 03:21:34 [error] 26#26: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/03/24 03:22:16 [error] 26#26: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/03/24 03:24:38 [error] 25#25: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/03/24 03:44:52 [error] 25#25: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use try without catch or finally in /var/www/ceportal/app/Http/Controllers/Tools/RequestUtils.php on line 33
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /var/www/ceportal/public/index.php:0
+PHP message: PHP   2. App\Http\Kernel->handle() /var/www/ceportal/public/index.php:84
+PHP message: PHP   3. App\Http\Kernel->sendRequestThroughRouter() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:99
+PHP message: PHP   4. Illuminate\Routing\Pipeline->then() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:132
+PHP message: PHP   5. call_user_func:{/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:102}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:102
+PHP message: PHP   6. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure:/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:28-38}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:102
+PHP message: PHP   7. call_user_func:{/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+PHP message: PHP   8. Illuminate\Routing\Pipeline->Illuminate\Pipeline\{closure:/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:114-137}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+PHP message: PHP   9. call_user_func_array:{/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+PHP message: PHP  10. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+PHP message: PHP  11. Illuminate\Routing
+2022/03/24 03:44:52 [error] 25#25: *15 FastCGI sent in stderr: "ithinStack() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Router.php:699
+PHP message: PHP  22. Illuminate\Routing\Pipeline->then() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Router.php:726
+PHP message: PHP  23. call_user_func:{/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:102}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:102
+PHP message: PHP  24. Illuminate\Routing\Pipeline->Illuminate\Routing\{closure:/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:28-38}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:102
+PHP message: PHP  25. call_user_func:{/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+PHP message: PHP  26. Illuminate\Routing\Pipeline->Illuminate\Pipeline\{closure:/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:114-137}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php:32
+PHP message: PHP  27. call_user_func_array:{/var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136}() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+PHP message: PHP  28. App\Http\Middleware\XiaoeLogin->handle() /var/www/ceportal/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:136
+PHP message: PHP  29. App\Http\Controllers\Tools\Utils::getUserInfo() /var/www/ceportal/app/Http/Middleware/XiaoeLogin.php:219
+PHP message: PHP  30. App\Http\Controllers\Tools\ExternalUtils::getUserInfoAtBase() /var/www/ceportal/app/Http/Controllers/Tools/Utils.php:720
+PHP message: PHP  31. spl_autoload_call() /var/www/ceportal/app/Http/Controllers/Tools/ExternalUtils.php:48
+PHP message: PHP  32. Composer\Autoload\ClassLoader->loadClass() /var/www/ceportal/app/Http/
+2022/04/04 06:12:05 [error] 25#25: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/04/04 07:32:08 [error] 25#25: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/ceportal/vendor/xiaoe/exception-reporter/src/ExceptionReporte...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/data/exception/ceportal" and its not buildable: Permission denied in /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:161
+Stack trace:
+#0 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(97): Monolog\Handler\StreamHandler->createDir()
+#1 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php(106): Monolog\Handler\StreamHandler->write(Array)
+#2 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\RotatingFileHandler->write(Array)
+#3 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(336): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#4 /var/www/ceportal/vendor/monolog/monolog/src/Monolog/Logger.php(615): Monolog\Logger->addRecord(400, '{"log_at":"2022...', Array)
+#5 /var/www/c
+2022/04/04 07:34:13 [error] 25#25: *8 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 172.18.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?app_id=appcypqd1zf6364&XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "ceportal.local.xiaoe.com:80"
+2022/04/04 07:34:13 [error] 25#25: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: ceportal.local.xiaoe.com, request: "POST /pay/get_info?app_id=appcypqd1zf6364&XDEBUG_SESSION_START=qqq HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "ceportal.local.xiaoe.com:80"

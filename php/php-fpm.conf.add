@@ -1,0 +1,4 @@
+pm.max_children = 300
+pm.min_spare_servers = 10
+pm.start_servers = 15
+pm.max_spare_servers = 50
