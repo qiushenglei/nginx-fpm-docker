@@ -2,7 +2,7 @@
 
 > 安装docker
 
-这一步不做说明了，直接看docker的教程或者blog
+这一步不做说明了，直接看docker的教程或者blog.  
 
 > 拉取gitHub库
 
